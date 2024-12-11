@@ -8,7 +8,7 @@ import uuid
 app = Flask(__name__)
 DOWNLOAD_FOLDER = 'downloads'
 app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
-URL = 'https://ytdlp-k2mg.onrender.com'
+URL = 'YOUR DOMAIN URL'
 
 # Index page
 @app.route('/')
