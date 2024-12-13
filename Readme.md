@@ -31,7 +31,7 @@ The API respects copyright and fair use policies; users are responsible for ensu
 
 # Build cmd
 ```
-bash run.sh
+bash setup.sh
 ```
 # run
 ```
