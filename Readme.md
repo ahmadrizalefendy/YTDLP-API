@@ -25,7 +25,7 @@ Notes
 Ensure proper URL encoding when passing the yturl parameter.
 The API respects copyright and fair use policies; users are responsible for ensuring legal use.
 
-# Don't Forgot to change domain on app.ppy
+# Don't Forgot to change domain on app.py
 
 
 
