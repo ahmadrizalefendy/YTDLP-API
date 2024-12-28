@@ -1,7 +1,7 @@
 
 Here’s a description for an API endpoint using yt-dlp to download audio:
 
-Endpoint: /audio?url={yturl}
+> Endpoint: /audio?url={yturl}
 This endpoint allows users to download audio from a YouTube video using the powerful yt-dlp library.
 
 Request
@@ -19,14 +19,28 @@ Example Usage
 bash
 Copy code
 ```
-curl -X GET "http://api.example.com/audio?url=https://www.youtube.com/watch?v=example123" --output song.mp3
+curl -X GET "http://api.example.com/audio?url=https://www.youtube.com/watch?v=example123"
 ```
 Notes
 Ensure proper URL encoding when passing the yturl parameter.
 The API respects copyright and fair use policies; users are responsible for ensuring legal use.
 
-# Don't Forgot to change doamin on app.ppy
-> Upload to cookies from Browser as NetScape Format Then Upload as cookies.txt
+# Don't Forgot to change domain on app.ppy
+
+
+
+ Upload to cookies from Browser as NetScape Format Then Upload as cookies.txt
+
+
+1. Open your browser (Chrome on PC or Firefox on mobile).
+2. Install the Cookie Editor extension.
+3. Open YouTube and log in to your account.
+4. Open the Cookie Editor extension and click "Export > select Netscape format".
+5. Copy the exported and save as cookies.txt
+6. Fork this repo and make it private
+7. upload cookies.txt
+
+
 > Check Port and Host IP if Required  on app.py 
 
 # Build cmd
