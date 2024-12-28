@@ -1,1 +1,11 @@
 # ADD  YOUR COOKIES HERE , AS Netscape
+
+
+
+# 1. Open your browser (Chrome on PC or Firefox on mobile).
+# 2. Install the Cookie Editor extension.
+# 3. Open YouTube as Desktop Site and log in to your account.
+# 4. Open the Cookie Editor extension and click "Export > select Netscape format".
+# 5. Copy the exported and save as cookies.txt
+# 6. Fork this repo and make it private
+# 7. upload cookies.
