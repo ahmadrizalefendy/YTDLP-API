@@ -31,7 +31,7 @@ def download_audio():
 
     ydl_opts = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-        #'cookiefile': 'cookies.txt', # Missed a comma here
+        'cookiefile': 'cookies.txt', # Missed a comma here
         'format': 'bestaudio/best',
         'outtmpl': os.path.join(DOWNLOAD_FOLDER, '%(title)s.%(ext)s'),
     }
@@ -76,7 +76,7 @@ def download_video():
 
     ydl_opts = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-       # 'cookiefile': 'cookies.txt', # Missed a comma here
+        'cookiefile': 'cookies.txt', # Missed a comma here
         'format': 'bestvideo[height<=1080]+bestaudio/best',
         'outtmpl': os.path.join(DOWNLOAD_FOLDER, '%(title)s.%(ext)s'),
     }
