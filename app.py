@@ -8,7 +8,7 @@ import uuid
 app = Flask(__name__)
 DOWNLOAD_FOLDER = 'downloads'
 app.config['DOWNLOAD_FOLDER'] = DOWNLOAD_FOLDER
-URL = 'YOUR DOMAIN URL'
+URL = 'ytdlp.zerocode.my.id'
 
 # Index page
 @app.route('/')
@@ -31,7 +31,7 @@ def download_audio():
 
     ydl_opts = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-        'cookiefile': 'cookies.txt', # Missed a comma here
+        #'cookiefile': 'cookies.txt', # Missed a comma here
         'format': 'bestaudio/best',
         'outtmpl': os.path.join(DOWNLOAD_FOLDER, '%(title)s.%(ext)s'),
     }
@@ -53,9 +53,9 @@ def download_audio():
                 os.remove(file_path)
 
         return jsonify({
-            'download_url': f'{URL}/download/{output_filename}',
+            'url': f'{URL}/download/{output_filename}',
             'name': title,
-            'url': url or search_query
+            'urlz': url or search_query
         }), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
@@ -76,7 +76,7 @@ def download_video():
 
     ydl_opts = {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0',
-        'cookiefile': 'cookies.txt', # Missed a comma here
+       # 'cookiefile': 'cookies.txt', # Missed a comma here
         'format': 'bestvideo[height<=1080]+bestaudio/best',
         'outtmpl': os.path.join(DOWNLOAD_FOLDER, '%(title)s.%(ext)s'),
     }
@@ -93,9 +93,9 @@ def download_video():
             os.rename(file_path, output_path)
 
         return jsonify({
-            'download_url': f'{URL}/download/{output_filename}',
+            'url': f'{URL}/download/{output_filename}',
             'name': title,
-            'url': url or search_query
+            'urlz': url or search_query
         }), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
