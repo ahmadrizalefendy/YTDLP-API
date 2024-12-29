@@ -1,11 +1,20 @@
-# ADD  YOUR COOKIES HERE , AS Netscape
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
 
-
-
-# 1. Open your browser (Chrome on PC or Firefox on mobile).
-# 2. Install the Cookie Editor extension.
-# 3. Open YouTube as Desktop Site and log in to your account.
-# 4. Open the Cookie Editor extension and click "Export > select Netscape format".
-# 5. Copy the exported and save as cookies.txt
-# 6. Fork this repo and make it private
-# 7. upload cookies.
+.youtube.com	TRUE	/	TRUE	1770037393	PREF	f6=40000000&tz=Asia.Jakarta
+.youtube.com	TRUE	/	TRUE	1766388229	__Secure-1PSIDTS	sidts-CjAB7wV3scxMCpmbe1yUQiJXZRz9JShl6DYn-6ptWv8I1i11Bl7TXiiv7zgjtrllECUQAA
+.youtube.com	TRUE	/	FALSE	1769412229	HSID	AsOG4nEm1lFvYV9Fs
+.youtube.com	TRUE	/	TRUE	1769412229	SSID	AlNIpY2MLjf1lRYo6
+.youtube.com	TRUE	/	FALSE	1769412229	APISID	dNDFffZHcmCuiFd4/A2_RIOVI8yExGA4ha
+.youtube.com	TRUE	/	TRUE	1769412229	SAPISID	9lQanV3r9UY_csqR/A_a4Oh38F3PjT40nm
+.youtube.com	TRUE	/	TRUE	1769412229	__Secure-1PAPISID	9lQanV3r9UY_csqR/A_a4Oh38F3PjT40nm
+.youtube.com	TRUE	/	TRUE	1769802429	__Secure-3PAPISID	9lQanV3r9UY_csqR/A_a4Oh38F3PjT40nm
+.youtube.com	TRUE	/	FALSE	1769412229	SID	g.a000rggkESNp77qfXgo-IzlvalShIsFKNQxRS24h6b6lSK2ObEbRi_OiAQ2w1e_4Ezo1jbPKBQACgYKAWUSARISFQHGX2MiRj1o-xzzCg8RDCyKxGzNBhoVAUF8yKrzHYJ4PvFnfRrsmBxhWYEB0076
+.youtube.com	TRUE	/	TRUE	1769412229	__Secure-1PSID	g.a000rggkESNp77qfXgo-IzlvalShIsFKNQxRS24h6b6lSK2ObEbRqALdfQUmU3t83vDix4uA2wACgYKAbgSARISFQHGX2MiSr7KGTunYQocvOHhvLJbwxoVAUF8yKpKQyUuXiRjEDUnL-lcI7f80076
+.youtube.com	TRUE	/	TRUE	1769802429	__Secure-3PSID	g.a000rggkESNp77qfXgo-IzlvalShIsFKNQxRS24h6b6lSK2ObEbR_KNJvn1KpSRnlJfB2UWCNwACgYKAU0SARISFQHGX2MibRuG121D3EgFjxwHdAsIvBoVAUF8yKq-sZjfVs6W0BIx7wGoYWW30076
+.youtube.com	TRUE	/	TRUE	1769412231	LOGIN_INFO	AFmmF2swRQIgbB1ZxpvENQ5C8sLmiL0zAJ7jiaArAWBSgwNlf8E2XigCIQCd7bs60hE3vOiemr9VHCmITP6sCKJ64YtCmRBu1seRIg:QUQ3MjNmelNQNE9zUWk4VDRZNW5peTNXWDNaMGZTTm5Wb19fQThQV1BtUkl0SFgzOHpDTDlpZGI3c0dvZFdyNnRjNDdlYVk1Y0NqWjBaVERwZ196dzliZlMyZk9Id1FzWDZvWnpNQXhLSHVvMnpiS0ZXMjAyUDNIWTE2Ml9USWdpTjlDTXBsSm5pZ1pza2xoOXZNWlRHVU45XzlQR000bjRR
+.youtube.com	TRUE	/	TRUE	1770037384	__Secure-3PSIDTS	sidts-CjAB7wV3scxMCpmbe1yUQiJXZRz9JShl6DYn-6ptWv8I1i11Bl7TXiiv7zgjtrllECUQAA
+.youtube.com	TRUE	/	FALSE	1767013408	SIDCC	AKEyXzV7qzTBYVxYQHrysX3Lp-HSCnZGqvq3ILNMCvW3jKBloau9Th08SUVEB-908a_WXD_T
+.youtube.com	TRUE	/	TRUE	1767013408	__Secure-1PSIDCC	AKEyXzVVw3cMLZm_2Vg6Uxb109rcSINVR9C3Eah47NlyxLaoYXp80RLNjJ6EWGhn1RoKm3alQA
+.youtube.com	TRUE	/	TRUE	1767013408	__Secure-3PSIDCC	AKEyXzXyWLbraGhacIgAv_BXhXkt7qbipD2uCn326cx5mzL4P6cN-MtGe-C83EeI81vshrr9Pg
